@@ -7,7 +7,4 @@ Configuration Helper for Automated Link Discovery
 3.- Run edu.rit.goal.chald.tools.ExtractPAndR (adding your scenario if needed at the beginning). This will create files 'PAndR-{Algo}-{N}.txt', where Algo={Sweep, CHALD, SLINT}. You can use these files to plot results. <br>
 
 ## How to include a new scenario
-TODO
-
-## How to include a new approach
-TODO
+Add your data using the N-Triples format to the data folder. Use a new number to name the folder. Include 'Source.nt', 'Target.nt' and 'GroundTruth.nt'.
